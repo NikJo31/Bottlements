@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "bottlements",
+	"version": "${version}",
+	"name": "Bottlements",
+	"description": "Elements in Bottles",
+	"authors": [
+		"Nikjo31"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/Nikjo31/Bottlements"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/bottlements/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"de.nikjo.bottlements.Bottlements"
+		],
+		"fabric-datagen": [
+			"de.nikjo.bottlements.BottlementsDataGenerator"
+		],
+		"client": [
+			"de.nikjo.bottlements.BottlementsClient"
+		]
+	},
+	"mixins": [
+		"bottlements.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
