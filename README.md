@@ -14,11 +14,11 @@ A Minecraft Fabric Mod with small creatures that can be held in bottles and used
 
 ❌ Not started yet
 
-❌## Version 1.0
-❌### <span>Version 0.1 "Base"</span> <span style="color:purple;">(Latest Version)</span>
+--------------------------------------------------------------------------------------
 
-❌ Bottles with effects
-❌ Mob: Element
-❌ Capture Elements in Bottles
-❌ 
-❌
+## Version 1.0
+### <span>Version 0.1 "Base"</span> <span style="color:purple;">(Latest Version)</span>
+
+- ❌ Bottles with effects
+- ❌ Mob: Element
+- ❌ Capture Elements in Bottles
